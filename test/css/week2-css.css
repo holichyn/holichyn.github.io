@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 0);
+    color: red
+}
+
+h1,
+h2 {
+    color: white;
+    background-color: purple;
+    border: 10px solid black;
+    border-radius: 3px;
+    padding: 5px 300px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+S p {
+    color: blue;
+    background-color: green;
+    border: 2px solid black;
+}
+}

@@ -1,0 +1,87 @@
+button.bg-black {
+
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 26px;
+    font-size: 13px;
+    margin: 4px 2px;
+    font-weight: normal;
+}
+
+
+button.bg-green {
+
+    background-color: #56a45c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 11px 22px;
+    font-size: 14px;
+    margin: 4px 2px;
+    font-weight: bolder;
+}
+
+button.bg-yellow {
+
+    background-color: #f9da4e;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 60px;
+    font-size: 14px;
+    margin: 4px 2px;
+    font-weight: normal;
+}
+
+button.bg-purple {
+
+    background-color: #7353ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 25px;
+    font-size: 13px;
+    margin: 4px 2px;
+    font-weight: bolder;
+
+}
+
+button.outl-grey {
+
+    background-color: white;
+    color: #797f84;
+    border: 1px solid #797f84;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 13px;
+    margin: 4px 2px;
+    font-weight: bolder;
+
+}
+
+button.bg-blue {
+
+    background-color: #2d65bc;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 28px;
+    font-size: 14px;
+    margin: 4px 2px;
+    font-weight: bolder;
+
+}
+
+button.outl-blue {
+
+    background-color: white;
+    color: #2565c4;
+    border: 1px solid #2565c4;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin: 4px 2px;
+    font-weight: bolder;
+
+}
