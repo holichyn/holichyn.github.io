@@ -1,0 +1,42 @@
+body {
+    background-color: #F2EAE0;
+}
+
+img.profile {
+    margin: 0px 0px 0px 25px;
+    width: 200px;
+
+}
+
+h1 {
+    color: #3E0F8D;
+    font-size: 40px;
+    margin: 25px;
+}
+
+h2 {
+
+    color: #3E0F8D;
+    font-size: 25px;
+    display: inline-block;
+    margin: 0px 0px 0px 25px;
+    padding: 12px;
+    border: 2px dashed #3E0F8D;
+
+}
+
+p {
+    color: #3E0F8D;
+    font-size: 20px;
+    margin: 25px;
+}
+
+img.instagram {
+    margin: 15px 25px 0px 16px;
+    width: 50px;
+}
+
+img.facebook {
+    width: 35px;
+    height: 35px;
+}
