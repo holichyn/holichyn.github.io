@@ -1,26 +1,36 @@
+body {
+    background-color: #F5EBDD;
+
+}
+
 h1 {
+    color: #413333;
     font-size: 40px;
     margin: 25px 0px 15px 25px;
 }
 
 h2 {
-    font-size: 28px;
-    margin: 25px 0px 15px 25px;
+    color: #413333;
+    font-size: 30px;
+    margin: 30px 0px 15px 25px;
 }
 
 img.newjeans {
     margin: 10px 0px 0px 25px;
-    width: 450px;
+    width: 480px;
 }
 
 p {
-    font-size: 20px;
+    color: #413333;
+    font-size: 21px;
     margin: 25px;
 }
 
 li {
+    color: #413333;
     font-size: 20px;
     margin: 15px 0px 10px 5px;
+
 }
 
 img.instagram {
@@ -29,25 +39,17 @@ img.instagram {
 }
 
 img.tiktok {
-    margin: 10px 5px 0px 8px;
+    margin: 10px 5px 0px 2px;
     width: 41px;
 }
 
 button.official-website {
-    margin: 25px;
-    padding: 10px 20px;
-    border: 2px solid;
-    border-radius: 30px;
+    font-size: 15px;
+    color: #F5EBDD;
+    background-color: #413333;
+    margin: 10px 5px 30px 25px;
+    padding: 10px 15px;
+    border: 2px solid #413333;
+    border-radius: 5px;
 
 }
-
-button.bg-blue {
-
-    background-color: #2d65bc;
-    color: white;
-
-    border-radius: 30px;
-    padding: 10px 28px;
-    font-size: 14px;
-    margin: 4px 2px;
-    font-weight: bolder;
