@@ -3,6 +3,11 @@ h1 {
     margin: 25px 0px 15px 25px;
 }
 
+h2 {
+    font-size: 28px;
+    margin: 25px 0px 15px 25px;
+}
+
 img.newjeans {
     margin: 10px 0px 0px 25px;
     width: 450px;
@@ -13,15 +18,36 @@ p {
     margin: 25px;
 }
 
-img.ditto {
+li {
+    font-size: 20px;
+    margin: 15px 0px 10px 5px;
+}
+
+img.instagram {
+    margin: 10px 5px 0px 25px;
+    width: 40px;
+}
+
+img.tiktok {
+    margin: 10px 5px 0px 8px;
+    width: 41px;
+}
+
+button.official-website {
     margin: 25px;
-    width: 200px;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 30px;
+
 }
 
-img.bubblegum {
-    width: 200px;
-}
+button.bg-blue {
 
-img.supernatural {
-    width: 200px;
-}
+    background-color: #2d65bc;
+    color: white;
+
+    border-radius: 30px;
+    padding: 10px 28px;
+    font-size: 14px;
+    margin: 4px 2px;
+    font-weight: bolder;
