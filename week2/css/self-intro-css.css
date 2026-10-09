@@ -1,5 +1,5 @@
 body {
-    background-color: #F2EAE0;
+    background-color: #F7EAE0;
 }
 
 img.profile {
@@ -9,34 +9,34 @@ img.profile {
 }
 
 h1 {
-    color: #3E0F8D;
+    color: #5E3122;
     font-size: 40px;
     margin: 25px;
 }
 
 h2 {
 
-    color: #3E0F8D;
-    font-size: 25px;
+    color: #1D4533;
+    font-size: 23px;
     display: inline-block;
     margin: 0px 0px 0px 25px;
     padding: 12px;
-    border: 2px dashed #3E0F8D;
+    border: 2px dashed #1D4533;
 
 }
 
 p {
-    color: #3E0F8D;
+    color: #5E3122;
     font-size: 20px;
     margin: 25px;
 }
 
 img.instagram {
-    margin: 15px 25px 0px 16px;
-    width: 50px;
+    margin: 25px 5px 0px 25px;
+    width: 40px;
 }
 
 img.facebook {
-    width: 35px;
-    height: 35px;
+    margin: 25px 0px 0px 0px;
+    width: 40px;
 }
