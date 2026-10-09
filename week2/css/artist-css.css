@@ -45,11 +45,11 @@ img.tiktok {
 
 button.official-website {
     font-size: 15px;
-    color: #F5EBDD;
-    background-color: #413333;
-    margin: 10px 5px 30px 25px;
-    padding: 10px 15px;
+    color: #413333;
+    background-color: #F2765E;
+    margin: 15px 5px 30px 25px;
+    padding: 8px 15px;
     border: 2px solid #413333;
-    border-radius: 5px;
+    border-radius: 30px;
 
 }
