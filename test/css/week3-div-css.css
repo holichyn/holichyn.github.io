@@ -1,0 +1,36 @@
+div.london {
+
+    background-color: #FFF4A3;
+}
+
+div.oslo {
+    background-color: #FFC0C7;
+    flex: 2;
+}
+
+
+div.rome {
+    background-color: #D9EEE1;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.box {
+    padding: 10px;
+    flex: 1;
+
+}
+
+.bg-image {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    background-image: url('../images/A.B.V wheat.png');
+    background-size: cover;
+    flex: 2
+}
