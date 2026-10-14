@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+QLD+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Long+Cang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-color: #f6f5ef;
+}
+
+div.residential {
+    font-size: 15px;
+    font-family: "Oxygen", sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+p {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 100px;
+
+}
+
+div.commercial {
+    font-size: 15px;
+    font-family: "Oxygen", sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+div.infrastructure {
+    font-size: 15px;
+    font-family: "Oxygen", sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    gap: 25px;
+}
+
+.box {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.bg-residential {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    background-image: url('../images/residential.jpg');
+    background-size: cover;
+}
+
+.bg-commercial {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    background-image: url('../images/commercial.jpg');
+    background-size: cover;
+}
+
+.bg-infrastructure {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    background-image: url('../images/infrastructure.jpg');
+    background-size: cover;
+}
