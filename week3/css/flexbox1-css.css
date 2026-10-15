@@ -2,70 +2,68 @@
 
 body {
     background-color: #f6f5ef;
+    margin: 25px;
 }
 
-div.residential {
-    font-size: 15px;
+h2 {
+    color: #21201e;
+    font-size: 22px;
     font-family: "Oxygen", sans-serif;
-    background-color: #ffffff;
-    text-align: center;
+    font-weight: 700px;
+    padding: 5px 0px 0px 12px;
+    margin-bottom: 0;
 }
 
 p {
+    color: #646463;
+    font-size: 13px;
     font-family: "Oxygen", sans-serif;
     font-weight: 100px;
-
+    padding: 0px 0px 0px 12px;
+    margin-bottom: 25px;
 }
 
-div.commercial {
-    font-size: 15px;
-    font-family: "Oxygen", sans-serif;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-
-div.infrastructure {
-    font-size: 15px;
-    font-family: "Oxygen", sans-serif;
-    background-color: #ffffff;
-    text-align: center;
-}
 
 .flexbox {
     display: flex;
     max-width: 1024px;
     margin: auto;
-    gap: 25px;
+    gap: 28px;
 }
 
-.box {
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
 
+.box {
+    padding: 13px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+
+div.residential,
+div.commercial,
+div.infrastructure {
+    background-color: #ffffff;
+}
+
+.bg-residential,
+.bg-commercial,
+.bg-infrastructure {
+    min-height: 210px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-residential {
-    min-height: 100px;
-    aspect-ratio: 1/1;
-    border-radius: 10px;
     background-image: url('../images/residential.jpg');
-    background-size: cover;
 }
 
 .bg-commercial {
-    min-height: 100px;
-    aspect-ratio: 1/1;
-    border-radius: 10px;
     background-image: url('../images/commercial.jpg');
-    background-size: cover;
 }
 
 .bg-infrastructure {
-    min-height: 100px;
-    aspect-ratio: 1/1;
-    border-radius: 10px;
     background-image: url('../images/infrastructure.jpg');
-    background-size: cover;
 }
