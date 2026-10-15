@@ -29,16 +29,16 @@ p {
     max-width: 1024px;
     margin: auto;
     gap: 28px;
+
 }
 
-
 .box {
+    flex: 1;
     padding: 13px;
     border: none;
     border-radius: 15px;
 
 }
-
 
 div.residential,
 div.commercial,
@@ -49,11 +49,11 @@ div.infrastructure {
 .bg-residential,
 .bg-commercial,
 .bg-infrastructure {
-    min-height: 210px;
+    min-height: 150px;
+    aspect-ratio: 1.3/1;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .bg-residential {
