@@ -9,7 +9,7 @@ h2 {
     color: #21201e;
     font-size: 22px;
     font-family: "Oxygen", sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 5px 0px 0px 12px;
     margin-bottom: 0;
 }
@@ -18,7 +18,7 @@ p {
     color: #646463;
     font-size: 13px;
     font-family: "Oxygen", sans-serif;
-    font-weight: 100px;
+    font-weight: 100;
     padding: 0px 0px 0px 12px;
     margin-bottom: 25px;
 }
