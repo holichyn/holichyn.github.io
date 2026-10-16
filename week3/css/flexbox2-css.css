@@ -3,7 +3,7 @@
 body {
     font-family: "Space Grotesk", sans-serif;
     background-color: #FFFFFF;
-    margin: 45px 60px;
+    margin: 40px 50px;
 }
 
 .header {
@@ -59,11 +59,11 @@ body {
     font-size: 60px;
     font-weight: 500;
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .description {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 25px;
 
@@ -73,11 +73,11 @@ body {
 .btn-book {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
-    font-weight: 350;
+    font-weight: 300;
     color: #FFFFFF;
     background-color: #000000;
     border: none;
-    padding: 16px 55px;
+    padding: 16px 35px;
     border-radius: 10px;
 }
 
@@ -93,4 +93,29 @@ body {
     width: 100%;
     max-width: 530px;
     height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.company-logo {
+    height: 50px;
+    width: auto;
+    filter: grayscale(100%);
+
 }
