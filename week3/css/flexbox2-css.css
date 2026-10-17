@@ -3,18 +3,18 @@
 body {
     font-family: "Space Grotesk", sans-serif;
     background-color: #FFFFFF;
-    margin: 40px 50px;
+    margin: 50px 140px;
 }
 
 .header {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: auto;
 }
 
 .logo {
-    height: 55px;
+    height: 53px;
     width: auto;
 }
 
@@ -23,29 +23,30 @@ body {
     align-items: center;
     gap: 45px;
     margin-left: auto;
+
 }
 
 .nav-item {
-    font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 410;
     color: #000000;
 }
 
 .request {
     font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 410;
     color: #000000;
     background-color: #FFFFFF;
     border: 1px solid #000000;
-    padding: 14px 24px;
+    padding: 16px 30px;
     border-radius: 12px;
 }
 
 .hero {
     display: flex;
-    max-width: 1200px;
+    flex-wrap: wrap;
+    max-width: 1440px;
     align-items: center;
     margin: auto;
     align-items: flex-start;
@@ -56,14 +57,14 @@ body {
 }
 
 .hero-title {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
     margin-top: 60px;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     margin-bottom: 25px;
 
@@ -72,49 +73,46 @@ body {
 
 .btn-book {
     font-family: "Space Grotesk", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: #FFFFFF;
     background-color: #000000;
     border: none;
-    padding: 16px 35px;
-    border-radius: 10px;
+    padding: 18px 32px;
+    border-radius: 12px;
 }
 
 .hero-image {
     display: flex;
-    flex: 1;
     justify-content: flex-end;
 
 }
 
 .hero-image img {
     margin-top: 60px;
+    max-width: 550px;
     width: 100%;
-    max-width: 530px;
     height: auto;
 }
 
 footer {
     display: flex;
+    max-width: 1440px;
+    margin: auto;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
 }
 
 .company {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 82px;
+    justify-content: space-between;
+    gap: 95px;
+    margin-top: 30px;
     flex-wrap: wrap;
-    margin-top: 70px;
 }
 
 .company-logo {
-    height: 50px;
+    height: 45px;
     width: auto;
     filter: grayscale(100%);
 
