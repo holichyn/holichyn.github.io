@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+QLD+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Long+Cang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #FFFFFF;
+    margin: 50px 140px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    height: 53px;
+    width: auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-left: auto;
+
+}
+
+.mobile-menu {
+    display: none;
+    width: 30px;
+
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 410;
+    color: #000000;
+}
+
+.request {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 410;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 16px 30px;
+    border-radius: 12px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    align-items: center;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.content {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+
+}
+
+.btn-book {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    padding: 18px 32px;
+    border-radius: 12px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.hero-image img {
+    margin-top: 60px;
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    gap: 95px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.company-logo {
+    height: 45px;
+    width: auto;
+    filter: grayscale(100%);
+
+}
+
+/*Tablet Styles*/
+@media screen and (max-width: 800px) {
+    body {
+        margin: 40px;
+
+    }
+
+    .logo {
+        height: 40px;
+        width: auto;
+    }
+
+
+    .header {
+        justify-content: space-between;
+
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        width: 25px;
+
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero-title {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+
+    .btn-book {
+        padding: 18px 120px;
+    }
+
+    .company {
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+        flex-wrap: wrap;
+        margin: 45px;
+    }
+
+    .company-logo {
+        height: 45px;
+        width: auto;
+        filter: grayscale(100%);
+
+    }
+
+}
