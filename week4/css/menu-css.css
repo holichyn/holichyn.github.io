@@ -16,6 +16,7 @@ body {
 
 .elementra-logo {
     height: 60px;
+    width: auto;
     display: block;
 }
 
@@ -94,6 +95,10 @@ body {
 /*Tablet*/
 @media screen and (max-width: 1100px) {
 
+    .elementra-logo {
+        height: 59px;
+    }
+
     .nav-list,
     .btn-contact {
         display: none;
@@ -102,4 +107,18 @@ body {
     .hamburger-menu {
         display: flex;
     }
+}
+
+/*Mobile*/
+@media screen and (max-width: 550px) {
+
+    .elementra-logo {
+        height: 58px;
+    }
+
+    .phone-call,
+    .phone-number {
+        display: none;
+    }
+
 }
