@@ -148,6 +148,7 @@ footer {
 }
 
 .services-description {
+    font-family: "Space Grotesk", sans-serif;
     max-width: 580px;
     font-size: 18px;
     color: #191A23;
@@ -308,7 +309,7 @@ footer {
 }
 
 /*Mobile Styles*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
     body {
         margin: 40px;
 
@@ -393,10 +394,17 @@ footer {
 
     }
 
+    .services-title {
+        margin: 0px;
+    }
+
     .services-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 60px;
     }
 
     .service-card {
@@ -409,9 +417,26 @@ footer {
 
     }
 
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-heading-wrap {
+        margin-bottom: 70px;
+    }
+
+    .card-link .link-text {
+        display: none;
+    }
+
     .service-card-image img {
         max-width: 80px;
         height: auto;
+    }
+
+    .image-right img {
+        max-width: 180px;
+        height: 100%;
     }
 
 }
