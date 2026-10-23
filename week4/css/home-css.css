@@ -249,6 +249,63 @@ footer {
     height: 100%;
 }
 
+.proposal-banner {
+    width: 100%;
+    background-color: #F3F3F3;
+    border-radius: 40px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 80px;
+}
+
+.proposal-content {
+    max-width: 500px;
+}
+
+.proposal-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.proposal-description {
+    font-size: 18px;
+    color: #191A23;
+    margin-bottom: 26px;
+}
+
+.btn-proposal {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #191A23;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 42px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.proposal-image {
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -75px;
+    margin-top: -75px;
+}
+
+.proposal-image img {
+    width: 100%;
+    height: auto;
+
+}
+
 /*Mobile Styles*/
 @media screen and (max-width: 800px) {
     body {
