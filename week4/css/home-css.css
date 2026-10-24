@@ -63,6 +63,7 @@ body {
 }
 
 .hero-title {
+    max-width: 500px;
     font-size: 55px;
     font-weight: 500;
     margin-top: 60px;
@@ -70,6 +71,7 @@ body {
 }
 
 .description {
+    max-width: 450px;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 25px;
@@ -131,8 +133,7 @@ footer {
     max-width: 1440px;
     margin: auto;
     margin-top: 80px;
-    margin-bottom: 40px;
-
+    margin-bottom: 80px;
 
 }
 
@@ -194,7 +195,7 @@ footer {
 }
 
 .card-heading-wrap {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .card-title {
@@ -289,7 +290,7 @@ footer {
     font-weight: 300;
     padding: 20px 42px;
     border: none;
-    border-radius: 12px;
+    border-radius: 14px;
 
 }
 
@@ -309,14 +310,14 @@ footer {
 }
 
 /*Mobile Styles*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
     body {
-        margin: 40px;
+        margin: 35px;
 
     }
 
     .logo {
-        height: 45px;
+        height: 40px;
         width: auto;
     }
 
@@ -359,20 +360,22 @@ footer {
     }
 
     .description {
-        font-size: 16px;
+        font-size: 18px;
+        margin-bottom: 45px;
         order: 3;
     }
 
     .btn-book {
         width: 100%;
-        padding: 18px 115px;
+        margin-bottom: 20px;
         order: 4;
+
     }
 
     .company {
         display: flex;
         justify-content: space-between;
-        gap: 35px;
+        gap: 20px;
         flex-wrap: wrap;
         margin: 45px;
     }
@@ -392,11 +395,16 @@ footer {
         text-align: center;
         gap: 15px;
         width: 100%;
+        margin-bottom: 45px;
 
     }
 
     .services-title {
         margin: 0px;
+    }
+
+    .services-description {
+        font-size: 17px;
     }
 
     .services-container {
@@ -405,12 +413,12 @@ footer {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        gap: 35px;
+        gap: 25px;
     }
 
     .service-card {
         width: 100%;
-        padding: 30px;
+        padding: 45px;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
@@ -419,11 +427,12 @@ footer {
     }
 
     .card-title {
-        font-size: 25px;
+        font-size: 26px;
+        margin-right: -100px;
     }
 
     .card-heading-wrap {
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
 
     .card-link .link-text {
@@ -436,20 +445,22 @@ footer {
     }
 
     .image-right img {
-        max-width: 180px;
+        max-width: 150px;
         height: 100%;
+        margin-left: -20px;
     }
 
     .proposal-banner {
         flex-direction: column;
-        padding: 40px 24px;
+        padding: 55px 50px;
         box-sizing: border-box;
         margin-top: 35px;
         margin-bottom: 50px;
     }
 
     .proposal-description {
-        font-size: 14px;
+        max-width: 310px;
+        font-size: 17px;
     }
 
     .proposal-image {
@@ -457,8 +468,9 @@ footer {
     }
 
     .btn-proposal {
+        font-size: 21px;
         width: 100%;
+        padding: 20px 15px;
     }
-
 
 }
