@@ -250,6 +250,7 @@ footer {
 .image-right img {
     max-width: 200px;
     height: 100%;
+
 }
 
 .proposal-banner {
@@ -446,7 +447,6 @@ footer {
 
     .image-right img {
         max-width: 150px;
-        height: 100%;
         margin-left: -20px;
     }
 

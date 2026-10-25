@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 1550px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.personal-logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: auto;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.social-links a {
+    margin-left: 12px;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
