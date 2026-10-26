@@ -8,12 +8,11 @@ body {
 }
 
 .header {
-    background-color: #FDF4D2;
+    background-color: #FFEFC4;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 15px;
-    margin-bottom: 60px;
 }
 
 .personal-logo {
@@ -46,6 +45,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('index images/bground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .profile {
@@ -61,27 +65,75 @@ body {
     height: 260px;
     border-radius: 50%;
     object-fit: cover;
-
-
+    margin-top: 50px;
 }
 
 .name {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 450;
     margin-bottom: 5px;
 }
 
 .subtitle {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .bio {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 350;
     max-width: 780px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 100px;
+}
+
+.exercises-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1400px;
+    margin-top: 20px;
+}
+
+.exercise-card {
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 15px;
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.week-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.exercise-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.exercise-list a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
