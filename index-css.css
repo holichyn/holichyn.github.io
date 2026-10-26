@@ -104,13 +104,14 @@ body {
     background-color: rgba(255, 255, 255, 0.589);
     border-radius: 15px;
     width: 430px;
-    padding: 30px;
+    padding: 40px;
     box-sizing: border-box;
 }
 
 .exercise-card.full-width {
     width: 100%;
     width: 1360px;
+    margin-bottom: 50px;
 
 }
 
@@ -120,15 +121,15 @@ body {
     justify-content: center;
     width: 100%;
     gap: 10px;
-    font-size: 30px;
+    font-size: 32px;
     border-bottom: 2px solid #000;
     padding-bottom: 8px;
     margin-bottom: 20px;
 }
 
 .week-icon {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
 }
 
 .exercise-list li {
@@ -140,7 +141,7 @@ body {
 .exercise-list a {
     color: #551a8b;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,4 +149,21 @@ body {
 
 .exercise-list a:hover {
     text-decoration: underline;
+}
+
+.footer {
+    background-color: #fce6ac;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+
+.disclaimer {
+    font-size: 16px;
+    color: #000;
 }
