@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+QLD+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Long+Cang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body {
-    background-color: #FFFFFF;
     font-family: "Exo 2", sans-serif;
     margin: 0;
     padding: 0;
@@ -65,7 +64,7 @@ body {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .name {
@@ -75,6 +74,7 @@ body {
 }
 
 .subtitle {
+    color: #551a8b;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -87,7 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 55px;
 }
 
 .exercises-container {
@@ -101,16 +101,16 @@ body {
 }
 
 .exercise-card {
-    background-color: rgba(255, 255, 255, 0.589);
+    background-color: rgba(255, 255, 255, 0.563);
     border-radius: 15px;
-    width: 430px;
-    padding: 40px;
+    width: 450px;
+    padding: 41px;
     box-sizing: border-box;
 }
 
 .exercise-card.full-width {
     width: 100%;
-    width: 1360px;
+    width: 1420px;
     margin-bottom: 50px;
 
 }
@@ -162,8 +162,49 @@ body {
     width: 100%;
 }
 
-
 .disclaimer {
     font-size: 16px;
     color: #000;
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 800px) {
+    .header {
+        padding: 15px 15px;
+
+    }
+
+    .personal-logo {
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    .social-links {
+        margin-right: 5px;
+
+    }
+
+    .social-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .profile-img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .name {
+        font-size: 45px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .bio {
+        font-size: 20px;
+        max-width: 400px;
+        margin-bottom: 50px;
+    }
 }
