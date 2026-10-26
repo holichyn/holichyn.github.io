@@ -109,8 +109,7 @@ body {
 }
 
 .exercise-card.full-width {
-    width: 100%;
-    width: 1420px;
+    width: 96%;
     margin-bottom: 50px;
 
 }
@@ -171,7 +170,6 @@ body {
 @media screen and (max-width: 800px) {
     .header {
         padding: 15px 15px;
-
     }
 
     .personal-logo {
@@ -205,6 +203,33 @@ body {
     .bio {
         font-size: 20px;
         max-width: 400px;
-        margin-bottom: 50px;
+        margin-bottom: 45px;
+    }
+
+    .exercise-card {
+        width: 430px;
+        padding: 40px;
+    }
+
+    .card-header {
+
+        font-size: 30px;
+        border-bottom: 2px solid #000;
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+    }
+
+    .week-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .exercise-list a {
+        font-size: 22px;
+    }
+
+    .exercise-card.full-width {
+        width: 430px;
+
     }
 }
