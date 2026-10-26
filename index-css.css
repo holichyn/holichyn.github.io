@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    background-color: #FFEFC4;
+    background-color: #fce6ac;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
 .personal-logo {
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 45px;
     width: auto;
     margin-left: 35px;
 }
@@ -36,8 +36,8 @@ body {
 }
 
 .social-icon {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
 }
 
 .content {
@@ -61,8 +61,8 @@ body {
 }
 
 .profile-img {
-    width: 260px;
-    height: 260px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 50px;
@@ -71,19 +71,19 @@ body {
 .name {
     font-size: 50px;
     font-weight: 450;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .subtitle {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
 .bio {
     font-size: 22px;
     font-weight: 350;
-    max-width: 780px;
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -94,17 +94,24 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
-    max-width: 1400px;
-    margin-top: 20px;
+    gap: 35px;
+    width: 100%;
+    max-width: 1490px;
+    margin-top: 10px;
 }
 
 .exercise-card {
     background-color: rgba(255, 255, 255, 0.589);
     border-radius: 15px;
-    width: 400px;
+    width: 430px;
     padding: 30px;
     box-sizing: border-box;
+}
+
+.exercise-card.full-width {
+    width: 100%;
+    width: 1360px;
+
 }
 
 .card-header {
@@ -112,7 +119,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 20px;
+    gap: 10px;
     font-size: 30px;
     border-bottom: 2px solid #000;
     padding-bottom: 8px;
@@ -120,8 +127,8 @@ body {
 }
 
 .week-icon {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 .exercise-list li {
@@ -131,9 +138,14 @@ body {
 }
 
 .exercise-list a {
+    color: #551a8b;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.exercise-list a:hover {
+    text-decoration: underline;
 }
