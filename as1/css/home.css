@@ -32,3 +32,32 @@
     background-size: cover;
     background-position: center;
 }
+
+.popular-section {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 120px 150px;
+    text-align: center;
+}
+
+.section-title-italic {
+    margin-bottom: 50px;
+}
+
+.popular-section h2 {
+    margin-bottom: 20px;
+}
+
+.popular-section p {
+    display: flex;
+    margin: 0 auto 100px auto;
+    text-align: center;
+    max-width: 650px;
+}
+
+.food-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
