@@ -69,6 +69,7 @@ p {
     font-family: var(--font-lora);
     font-size: 19px;
     line-height: 33.3px;
+    font-style: 400;
 }
 
 /* Section-title (Italic)*/
@@ -102,9 +103,10 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 180px;
+    padding: 25px 150px;
     width: 100%;
     background: transparent;
+    position: absolute;
 
 }
 
@@ -115,24 +117,24 @@ p {
 }
 
 .logo-img {
-    height: 55px;
+    height: 63px;
 }
 
 .brand-name {
     font-family: var(--font-bebas);
-    font-size: 35px;
+    font-size: 40px;
     color: var(--color-white);
 }
 
 .nav {
     display: flex;
-    gap: 30px;
+    gap: 25px;
     align-items: center;
 }
 
 .nav-item {
     color: var(--color-navbar-text);
-    font-size: 14px;
+    font-size: 15px;
     font-family: var(--font-work-sans);
 }
 
@@ -142,6 +144,6 @@ p {
 }
 
 .order-icon-img {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
 }
