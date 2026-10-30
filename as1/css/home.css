@@ -93,3 +93,22 @@
 .food-card.main-card h3 {
     margin-bottom: 30px;
 }
+
+.atmosphere-section {
+    padding: 150px 150px;
+    width: 100%;
+    aspect-ratio: 1536/799;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../images/Dining Table.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.atmosphere-content {
+    max-width: 550px;
+}
+
+.atmosphere-content h2 {
+    margin-bottom: 50px;
+}
