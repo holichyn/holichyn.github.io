@@ -195,6 +195,11 @@ p {
     color: var(--color-navbar-text);
     font-size: 15px;
     font-family: var(--font-work-sans);
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: var(--color-white);
 }
 
 .nav-icon-item {
