@@ -98,6 +98,65 @@ p {
     letter-spacing: 1.4px;
 }
 
+/* === BUTTON COMPONENT === */
+.btn {
+    font-family: var(--font-work-sans);
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding: var(--btn-padding);
+    background: var(--color-black);
+    color: var(--color-white);
+    border: 1px solid transparent;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-black {
+    background: var(--color-black);
+    color: var(--color-white);
+    border-color: var(--color-black);
+}
+
+.btn-black:hover {
+    background-color: var(--color-black);
+}
+
+.btn-white {
+    background: var(--color-white);
+    color: var(--color-black);
+    border-color: var(--color-white);
+}
+
+.btn-white:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.btn-outline {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-border);
+}
+
+.btn-outline:hover {
+    border-color: var(--color-black);
+    color: var(--color-black);
+}
+
+.btn-gold {
+    background: var(--color-hover-gold);
+    color: var(--color-white);
+    border-color: var(--color-hover-gold);
+}
+
+.btn-gold:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    color: var(--color-black);
+}
+
+
 /* === SITEWIDE HEADER & FOOTER === */
 .header {
     display: flex;
