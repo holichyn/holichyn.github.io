@@ -293,4 +293,15 @@ p {
         padding: 120px 130px;
 
     }
+
+    .social-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .social-icon img {
+        width: 18px;
+        height: 18px;
+    }
+
 }

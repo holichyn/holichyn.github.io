@@ -91,10 +91,6 @@
     margin-bottom: 30px;
 }
 
-.btn-outline {
-    margin-bottom: 60px;
-}
-
 .atmosphere-section {
     padding: 150px 150px;
     width: 100%;
@@ -137,17 +133,14 @@
     }
 
     .popular-section {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding: 100px 0px 0px 0px;
     }
 
     .popular-section p {
-        margin-bottom: 50px;
+        max-width: 500px;
+        margin-bottom: 100px;
     }
 
-    /* 网格重置为单列布局，无横向 Gap */
     .popular-section .food-grid {
         flex-direction: column;
         gap: 0;
@@ -156,7 +149,15 @@
         margin: 0;
     }
 
-    /* 卡片整体占满全宽 */
+
+    .food-card.main-card {
+        order: 1;
+    }
+
+    .food-card.side-card {
+        order: 2;
+    }
+
     .food-card,
     .food-card.side-card,
     .food-card.main-card {
@@ -165,11 +166,8 @@
         min-width: 0;
     }
 
-    .food-card.main-card {
-        order: 1;
-    }
 
-    .popular-section .food-grid .card-image {
+    .card-image {
         width: 100%;
     }
 
@@ -181,9 +179,18 @@
         display: block;
     }
 
-    /* 统一卡片内部标题 (h3 与 h4) 样式 */
     .food-card.side-card h4,
     .food-card.main-card h3 {
         font-size: 30px;
         margin-bottom: 20px;
     }
+
+    .btn-outline {
+        margin-bottom: 80px;
+    }
+
+    .atmosphere-section {
+        padding: 150px 150px;
+        height: 700px;
+    }
+}
