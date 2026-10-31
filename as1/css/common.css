@@ -166,7 +166,6 @@ p {
     width: 100%;
     background: transparent;
     position: absolute;
-
 }
 
 .logo {
@@ -198,6 +197,10 @@ p {
     text-decoration: none;
 }
 
+.nav-item.active {
+    color: var(--color-white);
+}
+
 .nav-item:hover {
     color: var(--color-white);
 }
@@ -210,6 +213,12 @@ p {
 .order-icon-img {
     height: 20px;
     width: 20px;
+}
+
+.menu-icon-img {
+    display: none;
+    width: 24px;
+
 }
 
 .footer {
@@ -234,15 +243,15 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 16px;
 }
 
 .social-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 62px;
-    height: 62px;
+    width: 60px;
+    height: 60px;
     background-color: var(--color-white);
     border-radius: 50%;
 }
@@ -250,4 +259,32 @@ p {
 .social-icon img {
     width: 22px;
     height: 22px;
+}
+
+.social-icon:hover {
+    background-color: var(--color-black);
+}
+
+.social-icon:hover img {
+    filter: invert(1);
+}
+
+/*Tablet Styles*/
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--color-black);
+    }
+
+    .nav-item,
+    .order-icon-img {
+        display: none;
+    }
+
+    .menu-icon-img {
+        display: block;
+    }
 }

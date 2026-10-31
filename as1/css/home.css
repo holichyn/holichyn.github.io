@@ -112,3 +112,25 @@
 .atmosphere-content h2 {
     margin-bottom: 50px;
 }
+
+/*Tablet Styles*/
+@media screen and (max-width: 1024px) {
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-right {
+        order: 1;
+        width: 100%;
+    }
+
+    .hero-left {
+        padding: 120px 180px;
+        order: 2;
+        max-width: 800px;
+        width: 100%;
+    }
+}
