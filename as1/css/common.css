@@ -172,6 +172,7 @@ p {
     display: flex;
     align-items: center;
     gap: 30px;
+    padding-right: 50px;
 }
 
 .logo-img {
@@ -286,5 +287,10 @@ p {
 
     .menu-icon-img {
         display: block;
+    }
+
+    .footer {
+        padding: 120px 130px;
+
     }
 }
