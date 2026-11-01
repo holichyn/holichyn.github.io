@@ -168,7 +168,6 @@
         min-width: 0;
     }
 
-
     .card-image {
         width: 100%;
     }
@@ -204,14 +203,56 @@
     }
 
     .hero-left h1 {
-        font-size: 70px;
+        font-size: 56px;
         line-height: 84px;
         margin-bottom: 25px;
     }
 
+    .section-header {
+        padding: 30px 50px;
 
+    }
 
+    .section-title-italic {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
 
+    .popular-section h2 {
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
 
+    .card-image img {
+        aspect-ratio: 1.1/1;
+    }
 
+    .btn-outline {
+        margin-bottom: 100px;
+    }
+
+    .atmosphere-section {
+        width: 100%;
+        padding: 0 0 20px 0;
+        background-size: 100% auto;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: var(--color-black);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atmosphere-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 70px;
+        text-align: center;
+        margin-top: 65%;
+    }
+
+    .atmosphere-content h2 {
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
 }

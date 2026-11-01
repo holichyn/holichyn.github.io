@@ -291,6 +291,7 @@ p {
     }
 
     .footer {
+        aspect-ratio: auto;
         padding: 120px 130px;
 
     }
@@ -311,5 +312,25 @@ p {
 @media screen and (max-width: 640px) {
     .header {
         padding: 20px 30px;
+    }
+
+    .footer {
+        padding: 90px 70px;
+        aspect-ratio: auto;
+    }
+
+    .footer-desc {
+        margin-bottom: 5px;
+
+    }
+
+    .social-icon {
+        width: 53px;
+        height: 53px;
+    }
+
+    .social-icon img {
+        width: 15px;
+        height: 15px;
     }
 }
