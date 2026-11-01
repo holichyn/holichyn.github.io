@@ -122,6 +122,8 @@
     .hero-right {
         order: 1;
         width: 100%;
+        height: auto;
+        aspect-ratio: 8/7;
     }
 
     .hero-left {
@@ -193,4 +195,23 @@
         padding: 150px 150px;
         height: 700px;
     }
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 640px) {
+    .hero-left {
+        padding-left: 90px;
+    }
+
+    .hero-left h1 {
+        font-size: 70px;
+        line-height: 84px;
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
 }
