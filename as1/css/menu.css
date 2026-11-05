@@ -152,7 +152,7 @@
 }
 
 /*Tablet Styles*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .recommendation-cards {
         flex-direction: column;
         gap: 80px;
