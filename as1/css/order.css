@@ -1,0 +1,34 @@
+.order-hero {
+    height: 900px;
+    background: url('../images/orderhero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content .sub-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.hero-content .sub-heading::before,
+.hero-content .sub-heading::after {
+    content: "";
+    height: 1px;
+    width: 80px;
+    background-color: var(--color-border);
+    display: inline-block;
+}
+
+.hero-content h2 {
+    padding-top: 10px;
+}
