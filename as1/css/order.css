@@ -7,9 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 100px 0;
 }
 
 .hero-content .sub-heading {
@@ -31,4 +29,22 @@
 
 .hero-content h2 {
     padding-top: 10px;
+}
+
+.order-intro {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 100px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.order-intro .sub-heading {
+    margin-bottom: 40px;
+}
+
+.intro-desc {
+    margin-top: 30px;
+    max-width: 400px;
 }
