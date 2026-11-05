@@ -59,7 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .food-card {
@@ -164,8 +164,6 @@
     .food-card.side-card,
     .food-card.main-card {
         width: 100%;
-        max-width: 100%;
-        min-width: 0;
     }
 
     .card-image {
@@ -175,7 +173,7 @@
     .card-image img {
         width: 100%;
         height: auto;
-        aspect-ratio: 1.7/1;
+        aspect-ratio: 1.5/1;
         object-fit: cover;
         display: block;
     }
@@ -236,7 +234,6 @@
         background-position: top center;
         background-repeat: no-repeat;
         background-color: var(--color-black);
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
