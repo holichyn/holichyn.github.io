@@ -41,7 +41,7 @@
     color: var(--color-black);
     display: flex;
     gap: 90px;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 
 .main-course-image {
@@ -49,8 +49,8 @@
 }
 
 .main-course-image img {
-    width: auto;
-    height: 1050px;
+    width: 100%;
+    height: 1100px;
     object-fit: cover;
 }
 
@@ -58,7 +58,13 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 50px 100px 0 0;
+}
 
+.menu-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-course-list h1 {
@@ -74,8 +80,41 @@
     margin-bottom: 20px;
 }
 
-.menu-item-header {
+
+
+.dessert-banner {
+    background-image: url('../images/Dessert-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.dessert-grid {
+    flex-wrap: wrap;
+    background-color: var(--color-white);
     display: flex;
     justify-content: space-between;
-    font-family: var(--font-heading);
+    gap: 40px;
+    padding: 50px 120px;
+
+}
+
+.dessert-card img {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    display: block;
+
+}
+
+.dessert-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    color: var(--color-black);
+    align-items: flex-start;
 }
