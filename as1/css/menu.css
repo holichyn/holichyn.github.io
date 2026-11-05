@@ -92,12 +92,11 @@
 }
 
 .dessert-grid {
-    flex-wrap: wrap;
     background-color: var(--color-white);
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 50px 120px;
+    padding: 50px 130px;
 
 }
 
@@ -114,7 +113,11 @@
 .dessert-info {
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
+    margin-top: 20px;
     color: var(--color-black);
-    align-items: flex-start;
+    align-items: center;
+}
+
+.dessert-card:nth-child(even) {
+    margin-top: 160px;
 }
