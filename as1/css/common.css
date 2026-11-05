@@ -15,92 +15,85 @@
     --color-bg-small-info: #F2F2F2;
     --color-white: #FFFFFF;
     --color-hover-gold: #BDA16B;
-    --font-bebas: 'Bebas Neue', sans-serif;
-    --font-work-sans: 'Work Sans', sans-serif;
-    --font-lora: 'Lora', serif;
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-sub-heading: 'Work Sans', sans-serif;
+    --font-paragraph: 'Lora', serif;
     --btn-padding: 10px 30px;
 }
 
 /* === GLOBAL TYPOGRAPHY  === */
 body {
-    font-family: var(--font-work-sans);
+    font-family: var(--font-sub-heading);
     color: var(--color-white);
     background-color: var(--color-black);
 }
 
 /*HEADINGS*/
-h1 {
-    font-family: var(--font-bebas);
-    font-size: 95px;
-    line-height: 114px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-heading);
     font-weight: 400;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 95px;
 }
 
 h2 {
-    font-family: var(--font-bebas);
     font-size: 70px;
-    line-height: 84px;
-    font-weight: 400;
 }
 
 h3 {
-    font-family: var(--font-bebas);
     font-size: 56px;
-    line-height: 64px;
-    font-weight: 400;
 }
 
 h4 {
-    font-family: var(--font-bebas);
     font-size: 30px;
-    line-height: 36px;
-    font-weight: 400;
 }
 
 h5 {
-    font-family: var(--font-bebas);
     font-size: 25px;
-    line-height: 30px;
-    font-weight: 400;
 }
 
-/* Paragraphy: Lora */
+/* Paragraphy*/
 p {
-    font-family: var(--font-lora);
+    font-family: var(--font-paragraph);
     font-size: 19px;
-    line-height: 33.3px;
-    font-style: 400;
+    line-height: 2;
 }
 
-/* Section-title (Italic)*/
-.section-title-italic {
-    font-family: var(--font-lora);
-    font-style: italic;
-    font-size: 46px;
-    line-height: 55.2px;
-    font-weight: 400;
-}
-
-/* Menu-title*/
+/* Italic*/
+.section-title-italic,
 .menu-title-italic {
-    font-family: var(--font-lora);
+    font-family: var(--font-paragraph);
     font-style: italic;
-    font-size: 40px;
-    line-height: 48px;
     font-weight: 400;
+    line-height: 1.2;
 }
 
-/* Eyebrow-Heading*/
-.eyebrow-heading {
-    font-family: var(--font-work-sans);
+.section-title-italic {
+    font-size: 46px;
+}
+
+.menu-title-italic {
+    font-size: 40px;
+}
+
+/* Sub-Heading*/
+.sub-heading {
+    font-family: var(--font-sub-heading);
     font-size: 15px;
-    line-height: 18px;
+    line-height: 1.2;
     letter-spacing: 1.4px;
 }
 
 /* === BUTTON COMPONENT === */
 .btn {
-    font-family: var(--font-work-sans);
+    font-family: var(--font-sub-heading);
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 1px;
@@ -180,7 +173,7 @@ p {
 }
 
 .brand-name {
-    font-family: var(--font-bebas);
+    font-family: var(--font-heading);
     font-size: 40px;
     color: var(--color-white);
 }
@@ -194,7 +187,7 @@ p {
 .nav-item {
     color: var(--color-navbar-text);
     font-size: 15px;
-    font-family: var(--font-work-sans);
+    font-family: var(--font-sub-heading);
     text-decoration: none;
 }
 

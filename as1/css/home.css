@@ -13,8 +13,8 @@
     padding-left: 150px;
 }
 
-.hero-left .eyebrow-heading {
-    margin-bottom: 30px;
+.hero-left .sub-heading {
+    margin-bottom: 40px;
 }
 
 .hero-left h1 {
@@ -59,7 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
 }
 
 .food-card {
@@ -77,12 +77,12 @@
 }
 
 .food-card.side-card {
-    width: 28%;
+    width: 22%;
     min-width: 200px;
 }
 
 .food-card.main-card {
-    width: 38%;
+    width: 42%;
     min-width: 260px;
 }
 
