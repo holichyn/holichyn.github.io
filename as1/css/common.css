@@ -149,6 +149,18 @@ p {
     color: var(--color-black);
 }
 
+.btn-transparent {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.btn-transparent:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+
 
 /* === SITEWIDE HEADER & FOOTER === */
 .header {

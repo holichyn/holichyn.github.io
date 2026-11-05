@@ -113,11 +113,35 @@
 .dessert-info {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 12px;
     color: var(--color-black);
     align-items: center;
 }
 
 .dessert-card:nth-child(even) {
     margin-top: 160px;
+}
+
+.cocktails-container {
+    width: 100%;
+    aspect-ratio: 3/2;
+    background: url('../images/best-croctails.png') center/cover no-repeat;
+    padding: 160px 120px;
+}
+
+.cocktails-content {
+    margin-bottom: 50px;
+}
+
+.cocktails-container .sub-heading {
+    margin-bottom: 80px;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 85px;
+    max-width: 85px;
+    margin-bottom: 20px;
+}
+
+.cocktails-desc {
+    padding: 30px 0 60px 0;
+    max-width: 470px;
 }
