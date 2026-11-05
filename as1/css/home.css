@@ -180,7 +180,7 @@
 
     .food-card.side-card h4,
     .food-card.main-card h3 {
-        font-size: 30px;
+        font-size: var(--font-h4-size);
         margin-bottom: 20px;
     }
 
@@ -201,7 +201,7 @@
     }
 
     .hero-left h1 {
-        font-size: 70px;
+        font-size: var(--font-h2-size);
         line-height: 84px;
         margin-bottom: 30px;
     }
@@ -212,11 +212,11 @@
 
     .section-title-italic span {
         display: block;
-        font-size: 40px;
+        font-size: var(--font-menu-ita-size);
     }
 
     .popular-section h2 {
-        font-size: 56px;
+        font-size: var(--font-h3-size);
         margin-bottom: 20px;
     }
 
@@ -247,7 +247,7 @@
     }
 
     .atmosphere-content h2 {
-        font-size: 56px;
+        font-size: var(--font-h3-size);
         margin-bottom: 20px;
     }
 }

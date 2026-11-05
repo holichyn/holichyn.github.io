@@ -18,6 +18,16 @@
     --font-heading: 'Bebas Neue', sans-serif;
     --font-sub-heading: 'Work Sans', sans-serif;
     --font-paragraph: 'Lora', serif;
+    --font-h1-size: 95px;
+    --font-h2-size: 70px;
+    --font-h3-size: 56px;
+    --font-h4-size: 30px;
+    --font-h5-size: 25px;
+    --font-p-size: 19px;
+    --font-sub-size: 15px;
+    --font-sec-ita-size: 46px;
+    --font-menu-ita-size: 40px;
+
     --btn-padding: 10px 30px;
 }
 
@@ -40,29 +50,29 @@ h5 {
 }
 
 h1 {
-    font-size: 95px;
+    font-size: var(--font-h1-size);
 }
 
 h2 {
-    font-size: 70px;
+    font-size: var(--font-h2-size);
 }
 
 h3 {
-    font-size: 56px;
+    font-size: var(--font-h3-size);
 }
 
 h4 {
-    font-size: 30px;
+    font-size: var(--font-h4-size);
 }
 
 h5 {
-    font-size: 25px;
+    font-size: var(--font-h5-size);
 }
 
 /* Paragraphy*/
 p {
     font-family: var(--font-paragraph);
-    font-size: 19px;
+    font-size: var(--font-p-size);
     line-height: 2;
 }
 
@@ -76,17 +86,17 @@ p {
 }
 
 .section-title-italic {
-    font-size: 46px;
+    font-size: var(--font-sec-ita-size);
 }
 
 .menu-title-italic {
-    font-size: 40px;
+    font-size: var(--font-menu-ita-size);
 }
 
 /* Sub-Heading*/
 .sub-heading {
     font-family: var(--font-sub-heading);
-    font-size: 15px;
+    font-size: var(--font-sub-size);
     line-height: 1.2;
     letter-spacing: 1.4px;
 }
@@ -198,7 +208,7 @@ p {
 
 .nav-item {
     color: var(--color-navbar-text);
-    font-size: 15px;
+    font-size: var(--font-sub-size);
     font-family: var(--font-sub-heading);
     text-decoration: none;
 }
