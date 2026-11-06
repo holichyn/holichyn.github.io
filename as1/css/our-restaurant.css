@@ -1,0 +1,46 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.571);
+}
+
+.rest-hero {
+    display: flex;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.rest-hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 150px;
+    background-color: var(--color-black);
+}
+
+.rest-hero-title h1 {
+    max-width: 500px;
+}
+
+.rest-hero-left p {
+    max-width: 550px;
+}
+
+.rest-hero-left .sub-heading {
+    margin-bottom: 40px;
+}
+
+.rest-hero-left h1 {
+    margin-bottom: 40px;
+}
+
+.rest-hero-right {
+    width: 50%;
+    height: 800px;
+    background-image: url('../images/restaurant.png');
+    background-size: cover;
+    background-position: 40% top;
+}
