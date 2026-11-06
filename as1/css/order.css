@@ -49,14 +49,16 @@
     max-width: 400px;
 }
 
-.chef-signatures {
+.chef-signatures,
+.chef-signatures-2 {
     background-color: var(--color-black);
     color: var(--color-white);
     padding: 100px 20px;
 }
 
 .section-header,
-.chef-cards-grid {
+.chef-cards-grid,
+.chef-cards-grid3 {
     max-width: 1250px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -70,14 +72,15 @@
     margin-bottom: 15px;
 }
 
-.chef-cards-grid {
+.chef-cards-grid,
+.chef-cards-grid3 {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.chef-cards-grid2 .order-card {
-    width: calc(50% - 25px);
+.chef-cards-grid .order-card {
+    width: calc(100%/2 - calc(25px /2));
     box-sizing: border-box;
 }
 
@@ -116,7 +119,8 @@
 }
 
 .card-body .item-desc {
-    max-width: 400px;
+    flex: 1;
+    max-width: 450px;
     margin-bottom: 10px;
 }
 
@@ -133,6 +137,7 @@
 }
 
 .qty-control {
+
     font-family: var(--font-paragraph);
     display: flex;
     align-items: center;
@@ -216,4 +221,27 @@
     gap: 50px;
     align-items: center;
     max-width: 400px;
+}
+
+.chef-cards-grid3 .order-card {
+    width: calc(100%/3 - calc(75px /3));
+    box-sizing: border-box;
+}
+
+.chef-cards-grid3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.chef-cards-grid3 .card-img {
+    height: 300px;
+}
+
+.chef-cards-grid3 .card-actions {
+    flex: 1;
+    width: 100%;
+
+    flex-direction: column;
+    gap: 15px;
 }

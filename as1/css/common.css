@@ -162,7 +162,7 @@ p {
 .btn-transparent {
     background: transparent;
     color: var(--color-white);
-    border-color: var(--color-white);
+    border-color: var(--color-navbar-text);
 }
 
 .btn-transparent:hover {
