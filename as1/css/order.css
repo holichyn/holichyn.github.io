@@ -196,8 +196,24 @@
 
 .pork-content {
     flex: 1;
-    padding: 80px;
+    padding: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.pork-content h3 {
+    margin: 10px 0;
+}
+
+.pork-desc {
+    margin: 20px 0;
+    max-width: 350px;
+}
+
+.pork-actions {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    max-width: 400px;
 }
