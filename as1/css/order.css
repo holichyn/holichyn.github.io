@@ -266,7 +266,7 @@
 @media screen and (max-width: 1200px) {
     .order-hero {
         width: 100%;
-        height: 700px;
+        height: 650px;
     }
 
     .order-intro {
@@ -320,6 +320,104 @@
 
     .chef-cards-grid3 .order-card {
         width: calc(100%/2 - calc(75px /2));
+    }
+
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 640px) {
+    .order-hero {
+        height: 400px;
+    }
+
+    .hero-content h2 {
+        font-size: var(--font-h3-size);
+    }
+
+    .hero-content .sub-heading {
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .hero-content .sub-heading::before,
+    .hero-content .sub-heading::after {
+        content: "";
+        height: 1px;
+        width: 40px;
+        background-color: var(--color-border);
+        display: inline-block;
+    }
+
+    .order-card {
+        flex: 1;
+    }
+
+    .order-intro {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 120px 45px;
+        gap: 40px;
+    }
+
+    .chef-signatures,
+    .chef-signatures-2 {
+        padding: 50px;
+    }
+
+    .chef-cards-grid,
+    .chef-cards-grid3 {
+        gap: 50px;
+    }
+
+    .chef-cards-grid .order-card {
+        width: calc(100%/1 - calc(25px /1));
+    }
+
+    .chef-cards-grid .card-actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-body {
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .house-favourite-pork {
+        padding: 50px;
+    }
+
+    .pork-card {
+        flex-direction: column;
+    }
+
+    .pork-content {
+        padding: 40px 50px;
+    }
+
+    .pork-desc {
+        margin: 20px 0;
+        max-width: 300px;
+    }
+
+    .pork-actions {
+        width: 100%;
+        gap: 30px;
+        max-width: 500px;
+    }
+
+    .chef-cards-grid3 .order-card {
+        width: calc(100%/1 - calc(75px /1));
+    }
+
+    .review-cart {
+        padding: 25px 0;
+    }
+
+    .review-desc {
+        max-width: 320px;
     }
 
 }
