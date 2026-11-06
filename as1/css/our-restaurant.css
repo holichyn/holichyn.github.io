@@ -92,6 +92,7 @@
 
 .rest-gallery-subtitle {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .rest-gallery-grid {
@@ -133,6 +134,7 @@
 
 .rest-review-title {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .rest-reviewer-name {
@@ -188,6 +190,38 @@
         height: auto;
         object-fit: cover;
         display: block;
+    }
+
+    .rest-gallery {
+        padding: 0 80px;
+    }
+
+    .rest-gallery-img {
+        width: calc(100% / 2);
+    }
+
+    .rest-reviews {
+        padding: 60px;
+    }
+
+    .rest-review-title {
+        margin-top: 80px;
+        max-width: 600px;
+    }
+
+    .rest-review-quote {
+        max-width: 500px;
+    }
+
+    .rest-reviews-group {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 50px;
+    }
+
+    .rest-review-card {
+        width: 100%;
+        padding: 40px 80px;
     }
 
 }
