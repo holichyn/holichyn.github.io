@@ -242,7 +242,6 @@
 .chef-cards-grid3 .card-actions {
     flex: 1;
     width: 100%;
-
     flex-direction: column;
     gap: 15px;
 }
@@ -299,4 +298,28 @@
         flex-direction: column;
         flex: 1;
     }
+
+    .pork-card {
+        flex-direction: column;
+    }
+
+    .pork-content {
+        padding: 80px 120px;
+    }
+
+    .pork-desc {
+        margin: 20px 0;
+        max-width: 700px;
+    }
+
+    .pork-actions {
+        width: 100%;
+        gap: 40px;
+        max-width: 500px;
+    }
+
+    .chef-cards-grid3 .order-card {
+        width: calc(100%/2 - calc(75px /2));
+    }
+
 }
