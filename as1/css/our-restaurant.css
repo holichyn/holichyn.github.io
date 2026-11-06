@@ -44,3 +44,46 @@
     background-size: cover;
     background-position: 40% top;
 }
+
+.rest-elegance {
+    background: var(--color-white);
+    color: var(--color-black);
+    width: 100%;
+    padding: 120px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rest-section-title {
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.rest-elegance-grid {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+
+}
+
+.rest-side {
+    width: 30%;
+    height: 400px;
+}
+
+.rest-center {
+    width: 40%;
+    height: 550px;
+}
+
+.rest-elegance-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
