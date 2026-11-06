@@ -81,7 +81,8 @@
     height: 550px;
 }
 
-.rest-gallery {
+.rest-gallery,
+.rest-reviews {
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
@@ -110,4 +111,41 @@
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+.rest-reviews-group {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    padding: 0 150px;
+    justify-content: center;
+}
+
+.rest-review-card {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 45px 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rest-review-title {
+    margin-bottom: 40px;
+}
+
+.rest-reviewer-name {
+    margin: 15px 0;
+}
+
+.rest-review-quote {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.rest-star-rating {
+    color: var(--color-hover-gold);
+    font-size: 35px;
 }
