@@ -1,5 +1,5 @@
 .order-hero {
-    height: 900px;
+    height: 950px;
     background: url('../images/orderhero.png');
     background-position: center;
     background-size: cover;
@@ -38,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 80px;
 }
 
 .order-intro .sub-heading {
@@ -80,7 +81,7 @@
 }
 
 .chef-cards-grid .order-card {
-    width: calc(100%/2 - calc(25px /2));
+    width: calc(100%/2 - calc(50px /2));
     box-sizing: border-box;
 }
 
@@ -92,7 +93,7 @@
 
 .card-img {
     width: 100%;
-    height: 500px;
+    aspect-ratio: 4/3;
 }
 
 .card-img img {
@@ -260,4 +261,42 @@
 
 .review-cart .review-desc {
     margin-bottom: 30px;
+}
+
+/*Tablet Styles*/
+@media screen and (max-width: 1200px) {
+    .order-hero {
+        width: 100%;
+        height: 700px;
+    }
+
+    .order-intro {
+        padding: 100px 150px;
+    }
+
+    .chef-signatures,
+    .chef-signatures-2 {
+        padding: 100px;
+    }
+
+    .chef-cards-grid,
+    .chef-cards-grid3 {
+        gap: 50px;
+    }
+
+    .chef-cards-grid .order-card {
+        width: calc(100%/1 - calc(25px /1));
+    }
+
+    .chef-cards-grid .card-actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-body {
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
 }
