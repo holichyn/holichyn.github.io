@@ -94,7 +94,7 @@
 .atmosphere-section {
     padding: 150px 150px;
     width: 100%;
-    aspect-ratio: 1536/799;
+    aspect-ratio: 2/1;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../images/Dining Table.jpg");
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@
         order: 1;
         width: 100%;
         height: auto;
-        aspect-ratio: 8/7;
+        aspect-ratio: 4/3;
     }
 
     .hero-left {
@@ -173,7 +173,7 @@
     .card-image img {
         width: 100%;
         height: auto;
-        aspect-ratio: 1.5/1;
+        aspect-ratio: 3/2;
         object-fit: cover;
         display: block;
     }
