@@ -61,12 +61,12 @@
     display: flex;
     gap: 10px;
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .philosophy-img .img-box {
     width: 50%;
-    height: 500px;
+    max-height: 500px;
 }
 
 .philosophy-img img {
