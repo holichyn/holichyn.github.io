@@ -292,7 +292,7 @@
     }
 
     .chef-cards-grid .order-card {
-        width: calc(100%/1 - calc(50px /1));
+        width: 100%;
     }
 
     .chef-cards-grid .card-actions {
@@ -384,10 +384,6 @@
     .chef-cards-grid,
     .chef-cards-grid3 {
         gap: 50px;
-    }
-
-    .chef-cards-grid .order-card {
-        width: calc(100%/1 - calc(25px /1));
     }
 
     .chef-cards-grid .card-actions {
