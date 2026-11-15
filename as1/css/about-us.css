@@ -80,3 +80,37 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.about-us-commitment {
+    display: flex;
+    width: 100%;
+    height: 680px;
+    background-color: var(--color-black);
+}
+
+.commitment-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 90px;
+}
+
+.commitment-text h2 {
+    margin-bottom: 40px;
+}
+
+.commitment-text p {
+    max-width: 400px;
+}
+
+.commitment-img {
+    width: 30%;
+}
+
+.commitment-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
