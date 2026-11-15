@@ -6,7 +6,7 @@
 .about-hero-left {
     width: 60%;
     height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/kit.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/kit.png');
     background-size: cover;
     background-position: center;
 
@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 40px 0;
+    padding: 80px 40px;
 }
 
 .about-hero-right .sub-heading {
