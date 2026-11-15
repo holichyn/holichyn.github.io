@@ -79,6 +79,7 @@
 .philosophy-text {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .about-us-commitment {
@@ -151,7 +152,7 @@
 
 .award-num {
     padding-bottom: 20px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid var(--color-border);
     margin-bottom: 80px;
     width: 80px;
 }
@@ -167,4 +168,96 @@
 .award-badge img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/*Tablet Styles*/
+@media screen and (max-width: 1200px) {
+    .about-us-hero {
+        flex-direction: column;
+    }
+
+    .about-hero-left {
+        width: 100%;
+        height: 600px;
+    }
+
+    .about-hero-right {
+        width: 100%;
+        padding: 120px 40px;
+    }
+
+    .about-hero-right p {
+        max-width: 650px;
+    }
+
+    .about-us-philosophy {
+        padding: 75px 0 85px;
+    }
+
+    .philosophy-images {
+        gap: 0;
+        margin-bottom: 40px;
+    }
+
+    .philosophy-images .img-box {
+        height: 420px;
+    }
+
+    .philosophy-text {
+        max-width: 850px;
+    }
+
+    .about-us-commitment {
+        min-height: 480px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/cheers.png');
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .commitment-img {
+        display: none;
+    }
+
+    .commitment-text {
+        width: 100%;
+        align-items: center;
+        padding: 80px 50px;
+        max-width: 800px;
+    }
+
+    .commitment-text h3,
+    .achievements-text h3 {
+        font-size: var(--font-h4-size);
+    }
+
+    .commitment-text p {
+        max-width: 560px;
+    }
+
+    /* 4. Our Achievements：三个奖项改为垂直一列排列 */
+    .about-us-achievements {
+        padding: 120px 40px 120px;
+    }
+
+    .achievements-desc {
+        max-width: 620px;
+        margin-bottom: 100px;
+    }
+
+    .awards-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 65px;
+    }
+
+    .award-item {
+        width: 100%;
+    }
+
+    .award-num {
+        margin-bottom: 30px;
+    }
 }
