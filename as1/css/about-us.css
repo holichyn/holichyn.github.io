@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 40px;
+    padding: 150px 40px;
 }
 
 .about-hero-right .sub-heading {
@@ -44,4 +44,39 @@
 
 .about-hero-right p {
     max-width: 450px;
+}
+
+.culinary-philosophy {
+    padding: 90px 0 100px;
+    text-align: center;
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.culinary-philosophy h1 {
+    margin-bottom: 60px;
+}
+
+.philosophy-img {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.philosophy-img .img-box {
+    width: 50%;
+    height: 500px;
+}
+
+.philosophy-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.philosophy-text {
+    max-width: 1000px;
+    margin: 0 auto;
 }
