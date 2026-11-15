@@ -43,7 +43,6 @@
     padding: 20px 0 0 0;
 }
 
-
 .main-course-image {
     flex: 1;
 }
@@ -92,7 +91,7 @@
 }
 
 .dessert-grid {
-    background-color: var(--color-white);
+    background-color: var(--color-border);
     display: flex;
     justify-content: space-between;
     gap: 40px;
