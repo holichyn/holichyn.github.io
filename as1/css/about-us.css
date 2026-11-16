@@ -177,8 +177,10 @@
     }
 
     .about-hero-left {
+
         width: 100%;
-        height: 600px;
+        height: auto;
+        aspect-ratio: 4/3;
     }
 
     .about-hero-right {
@@ -194,13 +196,8 @@
         padding: 75px 0 85px;
     }
 
-    .philosophy-images {
-        gap: 0;
+    .philosophy-img {
         margin-bottom: 40px;
-    }
-
-    .philosophy-images .img-box {
-        height: 420px;
     }
 
     .philosophy-text {
@@ -237,7 +234,6 @@
         max-width: 560px;
     }
 
-    /* 4. Our Achievements：三个奖项改为垂直一列排列 */
     .about-us-achievements {
         padding: 120px 40px 120px;
     }
@@ -259,5 +255,75 @@
 
     .award-num {
         margin-bottom: 30px;
+    }
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 640px) {
+
+    .about-hero-right h1 {
+        margin-bottom: 16px;
+    }
+
+    .about-us-philosophy {
+        padding: 60px 0 70px;
+    }
+
+    .culinary-philosophy h1,
+    .about-hero-right h1,
+    .achievements-text {
+        font-size: var(--font-h2-size);
+    }
+
+    .about-us-philosophy h2 {
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+
+    .philosophy-img .img-box:nth-child(1) {
+        width: 100%;
+    }
+
+    .philosophy-img .img-box:nth-child(2) {
+        display: none;
+    }
+
+    .philosophy-text {
+        padding: 0 24px;
+    }
+
+    .about-us-commitment {
+        min-height: 400px;
+    }
+
+    .commitment-text h2,
+    .about-us-achievements h2 {
+        font-size: var(--font-h3-size);
+    }
+
+    .commitment-text {
+        padding: 60px 30px;
+    }
+
+    .about-us-achievements {
+        padding: 70px 24px 85px;
+    }
+
+    .achievements-desc {
+        margin-bottom: 45px;
+    }
+
+    .awards-grid {
+        gap: 45px;
+    }
+
+    .award-num {
+        font-size: var(--font-h4-size);
+        margin-bottom: 24px;
+    }
+
+    .award-badge {
+        width: 180px;
+        height: 180px;
     }
 }
