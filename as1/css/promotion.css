@@ -94,3 +94,24 @@
     max-width: 350px;
     margin-bottom: 24px;
 }
+
+.promotion-evening-banner {
+    background-image: url("../images/promotion-evening-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 130px 40px;
+    text-align: center;
+}
+
+.promotion-evening-banner .sub-heading {
+    margin-bottom: 20px;
+}
+
+.promotion-evening-banner h2 {
+    margin-bottom: 25px;
+}
+
+.promotion-evening-banner p {
+    max-width: 900px;
+    margin: 0 auto;
+}
