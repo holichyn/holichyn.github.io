@@ -81,8 +81,7 @@
 }
 
 .chef-cards-grid .order-card {
-    width: calc(100%/2 - calc(50px /2));
-    box-sizing: border-box;
+    width: calc(100%/2 - calc(50px/2));
 }
 
 .order-card {
@@ -184,6 +183,10 @@
     flex: 4;
 }
 
+.chef-cards-grid .order-card {
+    width: calc(100% / 2 - calc(25px / 2));
+}
+
 .house-favourite-pork {
     background-color: var(--color-white);
     padding: 100px;
@@ -247,6 +250,7 @@
     height: 300px;
 }
 
+.chef-cards-grid .card-actions,
 .chef-cards-grid3 .card-actions {
     flex: 1;
     width: 100%;
@@ -286,20 +290,6 @@
         padding: 100px;
     }
 
-    .chef-cards-grid,
-    .chef-cards-grid3 {
-        gap: 50px;
-    }
-
-    .chef-cards-grid .order-card {
-        width: 100%;
-    }
-
-    .chef-cards-grid .card-actions {
-        flex-direction: column;
-        gap: 15px;
-    }
-
     .chef-signatures .qty-control {
         width: 100%;
     }
@@ -314,7 +304,6 @@
         flex-direction: column;
         flex: 1;
     }
-
 
     .pork-card {
         flex-direction: column;
@@ -336,7 +325,7 @@
     }
 
     .chef-cards-grid3 .order-card {
-        width: calc(100%/2 - calc(75px /2));
+        width: calc(100% / 2 - calc(25px / 2));
     }
 
 }

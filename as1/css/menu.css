@@ -91,7 +91,7 @@
 }
 
 .dessert-grid {
-    background-color: var(--color-border);
+    background-color: var(--color-white);
     display: flex;
     justify-content: space-between;
     gap: 40px;
