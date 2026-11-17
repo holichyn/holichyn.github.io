@@ -288,7 +288,7 @@
     }
 
     .promo-hero-right {
-        padding: 80px 150px;
+        padding: 80px 100px;
     }
 
     .seasonal-desc {
@@ -369,11 +369,37 @@
     .membership-cards {
         flex-wrap: wrap;
         justify-content: flex-start;
-        padding: 0 40px;
+        padding: 0 70px;
         max-width: 900px;
     }
 
     .tier-card {
         width: calc((100% - 50px) / 2);
+    }
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 640px) {
+    .promo-hero-right {
+        padding: 60px;
+    }
+
+    .promo-hero-content h1,
+    .promotion-seasonal h2,
+    .promotion-evening-banner h2,
+    .promotion-membership h2 {
+        font-size: var(--font-h3-size);
+    }
+
+    .section-title-italic {
+        font-size: var(--font-menu-ita-size);
+    }
+
+    .promotion-seasonal h2 {
+        padding-top: 20px;
+    }
+
+    .tier-card {
+        width: 100%;
     }
 }
