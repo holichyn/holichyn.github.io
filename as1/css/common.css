@@ -245,7 +245,7 @@ p {
     position: absolute;
     pointer-events: none;
     transition: all 1.5s;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .has-submenu:hover>.submenu {
@@ -259,6 +259,7 @@ p {
     display: block;
     text-decoration: none;
     padding-top: 5px;
+    padding: 0;
 }
 
 .submenu a:hover {
@@ -319,37 +320,54 @@ p {
 /*Tablet Styles*/
 @media screen and (max-width: 1200px) {
     .header {
-        padding: 20px 40px;
-        position: static;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: var(--color-black);
+        padding: 20px 30px;
+        position: relative;
     }
 
     .nav {
-        position: fixed;
-        top: 0;
-        right: -100%;
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
         width: 100%;
-        height: 50vh;
         margin-left: 0;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
+        gap: 0;
         background-color: var(--color-navbar-bg);
+        max-height: 0;
         opacity: 0;
-        visibility: hidden;
         transition: all 0.3s ease;
         z-index: 1000;
     }
 
     .nav.active {
-        right: 0;
+        max-height: 700px;
         opacity: 1;
         visibility: visible;
     }
+
+    .nav-item {
+        display: block;
+        align-items: center;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 30px;
+        color: var(--color-white);
+    }
+
+    .nav-item:hover {
+        background-color: var(--color-hover-gold);
+        color: var(--color-white);
+    }
+
+    .nav-item.active {
+        background-color: var(--color-hover-gold);
+    }
+
+    .has-submenu {
+        width: 100%;
+    }
+
 
     .order-icon-img {
         display: none;
