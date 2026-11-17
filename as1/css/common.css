@@ -236,6 +236,36 @@ p {
 
 }
 
+.submenu {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    transition: all 1.5s;
+    padding-top: 10px;
+}
+
+.has-submenu:hover>.submenu {
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.submenu a {
+    color: var(--color-navbar-text);
+    display: block;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.submenu a:hover {
+    color: var(--color-white);
+}
+
+.has-submenu>a::after {
+    content: "⇂";
+    margin-left: 2px;
+}
+
 .footer {
     text-align: center;
     padding: 180px 150px;
