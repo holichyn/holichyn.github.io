@@ -76,7 +76,6 @@
 .arch-img-box {
     max-width: 350px;
     margin-bottom: 50px;
-
 }
 
 .arch-img-box img {
@@ -181,14 +180,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 30px;
     margin-bottom: 20px;
 }
 
 .cta-note::before,
 .cta-note::after {
     content: "";
-    width: 20px;
+    width: 30px;
     height: 1px;
     background: var(--color-black);
+}
+
+.promotion-membership {
+    background-color: var(--color-white);
+    padding-bottom: 100px;
+}
+
+.membership-banner {
+    background-image: url("../images/membership.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 130px 40px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.membership-banner h2 {
+    margin-bottom: 25px;
+}
+
+.membership-banner p {
+    max-width: 850px;
+    margin: 0 auto;
 }
