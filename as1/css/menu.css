@@ -122,9 +122,11 @@
 }
 
 .cocktails-container {
-    aspect-ratio: 3/2;
+    max-width: 1440px;
+    min-height: 750px;
+    margin: 0 auto;
+    padding: 100px 60px;
     background-image: url('../images/best-croctails.png');
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 160px 120px;
