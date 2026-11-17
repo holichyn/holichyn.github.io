@@ -214,3 +214,63 @@
     max-width: 850px;
     margin: 0 auto;
 }
+
+.membership-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1220px;
+    margin: 50px auto 0;
+}
+
+.tier-card {
+    width: calc((100% - 100px) / 3);
+    height: 450px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    color: var(--color-white);
+}
+
+.tier-classic {
+    background-image: url("../images/classic.jpg");
+}
+
+.tier-prestige {
+    background-image: url("../images/prestige.jpg");
+}
+
+.tier-elite {
+    background-image: url("../images/elite.jpg");
+}
+
+.tier-top {
+    text-align: center;
+}
+
+.tier-top h4,
+.tier-top .sub-heading {
+    margin-bottom: 30px;
+}
+
+.tier-perks {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.perk-item {
+    font-family: var(--font-paragraph);
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.perk-item::before {
+    content: "★";
+    margin-right: 18px;
+}
