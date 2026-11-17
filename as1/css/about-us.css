@@ -264,7 +264,6 @@
     }
 
     .culinary-philosophy {
-        max-width: 20p;
         padding: 60px 0 70px;
     }
 
@@ -274,9 +273,18 @@
         font-size: var(--font-h2-size);
     }
 
+    .culinary-philosophy h1 {
+        padding: 10px 20px;
+
+    }
+
     .about-us-philosophy h2 {
         padding: 0 20px;
         margin-bottom: 30px;
+    }
+
+    .philosophy-text p {
+        max-width: 10px;
     }
 
     .philosophy-img .img-box:nth-child(1) {
@@ -288,7 +296,7 @@
     }
 
     .philosophy-text {
-        padding: 0 35px;
+        padding: 0 45px;
     }
 
     .about-us-commitment {
@@ -300,15 +308,13 @@
         font-size: var(--font-h3-size);
     }
 
-    .commitment-text {
-        padding: 60px 30px;
-    }
-
     .about-us-achievements {
         padding: 100px 24px 90px;
     }
 
+    .commitment-text p,
     .achievements-desc {
+        max-width: 360px;
         margin-bottom: 45px;
     }
 
@@ -322,7 +328,7 @@
     }
 
     .award-badge {
-        width: 180px;
+        max-width: 180px;
         height: 180px;
     }
 }
