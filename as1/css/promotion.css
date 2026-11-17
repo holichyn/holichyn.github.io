@@ -194,7 +194,7 @@
 
 .promotion-membership {
     background-color: var(--color-white);
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .membership-banner {
@@ -220,7 +220,7 @@
     justify-content: center;
     gap: 50px;
     max-width: 1220px;
-    margin: 50px auto 0;
+    margin: 60px auto 0;
 }
 
 .tier-card {
@@ -273,4 +273,50 @@
 .perk-item::before {
     content: "★";
     margin-right: 18px;
+}
+
+
+/*Tablet Styles*/
+@media screen and (max-width: 1200px) {
+    .promotion-hero {
+        flex-direction: column;
+    }
+
+    .promo-hero-left,
+    .promo-hero-right {
+        width: 100%;
+    }
+
+    .promo-hero-right {
+        padding: 80px 150px;
+    }
+
+    .seasonal-desc {
+        max-width: 600px;
+    }
+
+    .seasonal-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 65px;
+    }
+
+    .seasonal-card {
+        width: 100%;
+    }
+
+    .arch-img-box {
+        max-width: 440px;
+        margin-bottom: 32px;
+    }
+
+    .seasonal-card h4 {
+        margin-bottom: 14px;
+    }
+
+    .seasonal-card p {
+        max-width: 360px;
+        margin-bottom: 24px;
+    }
+
 }
